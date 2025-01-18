@@ -6,4 +6,6 @@ block content
             if hint
                 p 
                     i Hint: #{hint}
-            a(href=`/cards/${id}/?side=${side}`) #{side}
+            a(href=`/cards/${flashcardId}/?side=${side}`) #{side}
+            br
+            a(href=`/cards/`) Next card
